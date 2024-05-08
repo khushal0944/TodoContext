@@ -7,7 +7,7 @@ function TodoForm() {
     function submitHandler(e){
         e.preventDefault();
         if(!todo) return
-        addTodo({todo});
+        addTodo(todo);
         setTodo("")
     }
     return (
